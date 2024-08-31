@@ -1,14 +1,14 @@
 {
   "bot-account": {
-    "username": "bot",
-    "password": "your_password",
-    "type": "microsoft"
+    "username": "muqtada",
+    "password": "",
+    "type": "mojang"
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
-    "version": "1.19.3"
+    "ip": "muqtada68abc.aternos.me",
+    "port": 26505,
+    "version": "1.12.2"
   },
 
   "position": {
@@ -21,25 +21,12 @@
   "utils": {
     "auto-auth": {
       "enabled": false,
-      "password": "12345678"
+      "password": ""
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false,
-      "jump": false,
-      "rotate": false,
-
-      "hit": {
-        "enabled": false,
-        "delay": 1000,
-        "attack-mobs": false
-      },
-
-      "circle-walk": {
-        "enabled": false,
-        "radius": 2
-      }
+      "enabled": true,
+      "sneak": false
     },
 
     "chat-messages": {
@@ -56,7 +43,7 @@
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
-    "auto-reconnect-delay": 5000
+    "auto-reconnect": true,
+    "auto-recconect-delay": 5000
   }
 }
